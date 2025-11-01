@@ -1,0 +1,412 @@
+/* BANNER */
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+.banner-section {
+  padding: 100px 0;
+}
+
+.carousel-item img {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff6f7;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  margin: 4px;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #fff6f7;
+}
+
+/* Searh */
+.search-icon {
+  background-color: #f9a67b;
+  border: 1px solid #d07e4e;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.search-icon i {
+  color: black;
+  font-size: 14px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: 'Playpen Sans';
+  font-size: 14px;
+}
+
+.search-bar {
+  display: flex;
+  border: 2px solid #ec5e5e;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  border: none;
+  padding: 8px 12px;
+  flex: 1;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: #ec5e5e;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 0 30px 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar i {
+  font-size: 1rem;
+}
+
+.filter-heading {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.filter-box ul li {
+  margin-bottom: 6px;
+}
+
+.filter-box ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.filter-box ul li a:hover {
+  color: #ec5e5e;
+}
+
+.custom-search-bar input {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  border: 1px solid #333;
+  border-bottom: 4px solid #d07e4e;
+  padding: 2px 10px;
+  width: fit-content;
+  height: 40px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.club-header {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.club-logo {
+  height: 100px;
+  object-fit: contain;
+}
+
+.filter-box {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Playpen Sans', cursive;
+}
+
+/* Product*/
+.product-section {
+  padding: 100px 0;
+}
+
+
+.product-container .card-body {
+  padding: 0;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.product-container .card {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff6f7;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-container .card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.product-container .card-title {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.product-container .card-text.mb-1 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.product-container .card-text.text-danger {
+  font-weight: bold;
+  color: #f5a623;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-container .card-text.free {
+  color: #28a745;
+}
+
+.product-container .btn-bag {
+  background-color: #fdeaea;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.product-container .btn-bag i {
+  font-size: 1.2rem;
+  color: #dc3545;
+}
+
+/* Pagination Product */
+.dots-pagination-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot-arrow {
+  border: 2px solid #ec5e5e;
+  background: transparent;
+  color: #ec5e5e;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dots .dot {
+  width: 12px;
+  height: 12px;
+  background: #ec5e5e;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.dots .dot.active {
+  opacity: 1;
+}
+
+/* Style Guide Layout */
+.section-heading {
+  background-color: white;
+  padding: 60px 100px;
+  font-family: 'Roboto', sans-serif;
+  color: #200003;
+}
+
+.section-heading .style-columns {
+  display: flex;
+  justify-content: flex-start;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+/* Tiêu đề nhỏ */
+.section-heading .style-left h3,
+.section-heading .style-right h3 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Phần mô tả màu + font */
+.section-heading .style-left p,
+.section-heading .style-right p {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+/* Nút chính */
+.section-heading .button {
+  background-color: #ec5e5e;
+  color: white;
+  font-family: 'Playpen Sans', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Tiêu đề lớn "Section Headings" */
+.section-heading .style-heading {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Playpen Sans', cursive;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Tô màu cho từ trong tiêu đề */
+.section-heading .style-heading .black {
+  color: #200003;
+}
+
+.section-heading .style-heading .pink {
+  color: #ec5e5e;
+}
+
+
+/* STYLE CARD PRODUCT */
+
+.ticket-wrapper {
+  background-color: var(--pink-light);
+  height: 400px;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.ticket-name {
+  padding-top: 4%;
+  margin-bottom: 8px;
+  font-family: var(--primary-font);
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.ticket-time {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-bottom: 8px;
+
+}
+
+.price {
+  font-family: var(--primary-font);
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+  color: #ffbd59;
+}
+
+.free {
+  color: #4dafa7;
+}
+
+.btn.buy {
+  padding: 0 30px;
+}
+
+.li-img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+
+/* BOOKING MESSAGE FORM */
+
+.shop-booking {
+  padding: 100px 0;
+}
+
+.booking-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.booking-form img {
+  display: flex;
+  justify-self: center;
+  width: 20%;
+  margin-bottom: 30px;
+}
+
+.booking-form label {
+  margin-bottom: 30px;
+  font-family: var(--primary-font);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.booking-form textarea {
+  border-radius: 8px;
+  border-color: #ec5e5ea1;
+  border-width: 3px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+
+.booking-form textarea:focus-visible {
+  outline: none;
+}

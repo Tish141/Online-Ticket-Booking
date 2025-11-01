@@ -1,0 +1,64 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+}
+
+/* <!-- SỰ KIỆN --> */
+.ct-product {
+    display: flex;
+    justify-content: right;
+    padding-right: 35px;
+}
+
+.ct-product img {
+    width: 80%;
+}
+
+/* Tiêu đề “Sự kiện Sắc Việt” */
+.ct-event {
+    display: flex;
+    font-family: 'Playpen Sans';
+    font-size: 2em;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 16px;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.ct-event+p {
+    color: #4d4d4d;
+}
+
+/* Phần tiêu đề “Thông tin vé” */
+h5.ct-note {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.ct-contact li {
+    font-family: 'Roboto', cursive;
+    color: #4d4d4d;
+}
+
+.ct-info p {
+    margin: 0;
+    font-family: 'Roboto', cursive;
+}
+
+.ct-price {
+    font-weight: 700;
+    color: var(--pink-primary);
+}
+
+.ct-note h2 {
+    padding-left: 20px;
+    margin-top: 0%;
+}
+
+.ct-sell {
+    margin-top: 30px;
+    padding: 5px 30px;
+}

@@ -1,0 +1,139 @@
+h1 {
+    font-family: var(--primary-font);
+
+}
+
+main {
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+
+
+.order-info-table {
+    width: 80%;
+    /* Không full chiều ngang */
+    margin: 0 auto;
+    /* Căn giữa màn hình */
+    border-collapse: collapse;
+    font-family: var(--text-font);
+    font-size: larger;
+}
+
+.order-info-table .btn-nav-login {
+    background-color: var(--pink-primary);
+    color: white
+}
+
+.order-info-table th,
+.order-info-table td {
+    padding: 16px;
+    text-align: center;
+}
+
+.paying-order-table-quantity-input {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    width: 35%;
+    text-align: center;
+    padding: 0;
+    /* Xoá padding thừa */
+    appearance: textfield;
+    -webkit-appearance: none;
+    /* Safari/Chrome */
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+
+/* Hiển thị rõ spinner & sát số trong Chrome */
+.paying-order-table-quantity-input::-webkit-inner-spin-button,
+.paying-order-table-quantity-input::-webkit-outer-spin-button {
+    opacity: 1;
+    -webkit-appearance: inner-spin-button;
+    margin: 0;
+}
+
+
+
+.paying-order-table-btn-remove {
+    all: unset;
+    color: #6c757d;
+    /* Màu xám */
+    font-size: 2.5rem;
+    /* Tăng kích thước dấu × */
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 40px;
+    /* Cách sản phẩm ra */
+    line-height: 1;
+}
+
+.paying-order-table-btn-remove:hover {
+    color: #343a40;
+    /* Xám đậm hơn khi hover */
+}
+
+.logo-fac {
+    width: 180px;
+    height: 45px;
+}
+
+
+#modalChuyenKhoan {
+    top: 10%;
+}
+
+.modal-body-head {
+    margin-left: 30px;
+    color: var(--pink-primary);
+}
+
+
+.logo-img {
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+}
+
+.modal-body-label {
+    color: var(--pink-primary);
+    font-weight: bold;
+}
+
+
+.QR {
+    width: 400px;
+    height: 450px;
+}
+
+.btn.primary-btn.modal-btn-button-cancel {
+    border: none;
+    width: 5em;
+    border-radius: 20px;
+    color: white;
+    background: #A6AEAD;
+}
+
+.btn.primary-btn.modal-btn-button-finish {
+    margin-left: 20px;
+    border: none;
+    width: 8em;
+    border-radius: 20px;
+    color: white;
+    background: var(--pink-primary);
+
+}
+
+.order-success-event-info {
+    font-size: 1.5em;
+}
+
+
+.order-info-line {
+    height: 2px;
+    background-color: black;
+    width: 90%;
+    margin: 24px auto;
+}

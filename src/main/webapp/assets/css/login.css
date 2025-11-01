@@ -1,0 +1,72 @@
+    body {
+        background-image: url('../img/backgrounds/gradiant-bg-02.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        font-family: var(--primary-font);
+    }
+
+    .login-wrapper {
+        margin: 60px auto;
+        max-width: 950px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        padding: 10px 50px 15px 50px;
+        box-shadow: 0 4px 20px #c07c7c;
+        backdrop-filter: blur(10px)
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    /* .login-header {
+        font-size: 3.5em;
+    } */
+
+    img {
+        width: 70%;
+    }
+
+    .form-wrapper {
+        margin: 0 45px;
+        text-align: center;
+    }
+
+    .form-wrapper input {
+        height: 50px;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+
+    .submit .primary-btn {
+        width: 150px;
+        height: 40px;
+    }
+
+    .signup-wrapper {
+        text-align: center;
+    }
+
+    .signup-link {
+        text-decoration: underline;
+        color: inherit;
+        transition: color 0.3s ease;
+    }
+
+    .signup-link:hover {
+        color: var(--pink-primary);
+    }
+
+    .signup-wrapper p {
+        margin-bottom: 0;
+    }

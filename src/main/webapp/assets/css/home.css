@@ -1,0 +1,224 @@
+/* WELCOME */
+
+.welcome {
+    margin: 0;
+    padding: 100px 0;
+    background-image: url(../img/backgrounds/gradiant-bg-01.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome-container {
+    align-items: center;
+}
+
+
+.wel-left {
+    text-align: left;
+    /* margin: 170px 0; */
+
+}
+
+.wel-left.section-heading {
+    /* margin-bottom: 0.2em; */
+    font-size: 5.5em;
+}
+
+.paragraph {
+    font-size: 1.5em;
+    margin: 15px 0 30px 0;
+    padding-right: 30%;
+    font-family: var(--text-font);
+}
+
+section.wel-right {
+    padding-right: 0;
+
+}
+
+.wel-right img {
+    width: 100%;
+    /* margin: 20% 0; */
+    border-radius: 5%;
+
+}
+
+/* TICKET */
+
+.ticket {
+    margin: 0;
+    padding: 100px 0;
+    background-image: url(../img/backgrounds/gradiant-bg-01.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.center-logo {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.p-center {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 2% auto 3% auto;
+}
+
+.li-img {
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.ticket-wrapper {
+    background-color: white;
+    height: 400px;
+    border-radius: 20px;
+    margin-top: 70px;
+
+}
+
+.ticket-name {
+    padding-top: 4%;
+    margin-bottom: 8px;
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.ticket-time {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 8px;
+
+}
+
+.price {
+    font-family: var(--primary-font);
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    color: #ffbd59;
+}
+
+.free {
+    color: #4dafa7;
+}
+
+.btn.buy {
+    padding: 0 30px;
+}
+
+.primary-btn.more {
+    display: block;
+    width: 8em;
+    margin: 0 auto;
+}
+
+.more-wrapper {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+/* WHY */
+
+.why {
+    padding: 100px 0;
+}
+
+.why.paragraph {
+    font-size: 1.8em;
+}
+
+.why-wrapper {
+margin: 70px auto;
+}
+
+.why-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: var(--text-font);
+}
+
+.icon-img {
+    width: 15%;
+    margin-right: 80px;
+}
+
+.why-p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.p-header {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.why-right img {
+    width: 75%;
+    margin: 30px auto 0 auto;
+    float: left;
+}
+
+.why-right a {
+    margin: 30px auto 100px auto;
+    width: 30%;
+}
+
+/* PRODUCT */
+
+.ticket-name.event {
+    padding-top: 0;
+}
+
+.ticket-name.pro {
+    margin-bottom: 0;
+}
+
+/* COLLAB */
+
+.collab {
+    padding: 100px 0;
+}
+
+
+.collab-wrapper {
+    margin-top: 100px;
+}
+
+.collab-part {
+    background-color: rgb(255, 246, 247);
+    border-radius: 30px;
+    padding: 20px;
+    height: calc(230px + 10%);
+}
+
+.collab-part img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.collab-para {
+    font-size: 1.1em;
+}
+
+.collab-part.bg2 {
+    background-image: url(../img/backgrounds/wave-bg.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.call {
+    padding: 6px;
+    display: block;
+    width: 420px;
+    margin: 30px auto;
+}
